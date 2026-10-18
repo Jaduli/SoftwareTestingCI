@@ -1,0 +1,27 @@
+{
+    "name": "Software_Testing_Assigment",
+    "version": "1.0",
+    "description": "Assigment for course COMP.SE.200 Software Testing",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "mocha",
+        "test:report": "mocha test --reporter mochawesome --reporter-options reportDir=reports,reportFilename=test-results",
+        "coverage": "c8 --reporter=lcov --all -n src -x src/.internal npm test"
+    },
+    "author": {
+        "name": "Jade Pitkänen, Lauri Mäntylä"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^6.2.2",
+        "mocha": "^12.0.2",
+        "mocha-lcov-reporter": "^1.3.0",
+        "mochawesome": "^8.1.1",
+        "c8": "12.0.0",
+        "testdouble": "^3.20.2"
+    },
+    "dependencies": {
+        "mathjs": "^14.7.0"
+    }
+}
