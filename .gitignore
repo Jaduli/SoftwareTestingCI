@@ -1,0 +1,18 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage directory (Mocha LCOV)
+coverage
+
+# Report directory (Mochawesome)
+reports
+
+# Dependency directory
+node_modules/
+
+# dotenv environment variable files
+.env
+.env.*
+!.env.example
