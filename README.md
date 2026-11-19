@@ -1,7 +1,7 @@
 # COMP.SE.200 Software Testing Assignment
 
 ## Setup
-npm install
+- run `npm install` in terminal
 
 ## Coverage
 - run `npm run coverage`
