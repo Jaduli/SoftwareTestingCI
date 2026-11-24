@@ -1,5 +1,7 @@
 # COMP.SE.200 Software Testing Assignment
 
+[![Coverage Status](https://coveralls.io/repos/github/Jaduli/SoftwareTestingCI/badge.svg?branch=main)](https://coveralls.io/github/Jaduli/SoftwareTestingCI?branch=main)
+
 ## Setup
 - run `npm install` in terminal
 
